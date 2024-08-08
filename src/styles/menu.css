@@ -1,0 +1,77 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#dishes {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 80px;
+    margin-top: 36px;
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    gap: 12px;
+    width: 25%;
+    padding: 20px;
+    background-color: azure;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dish-heart {
+    cursor: pointer;
+    color: red;
+    font-size: 22px;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: darkred;
+    }
+
+}
+
+.dish-description {
+    color: #434343;
+    text-align: center;
+}
+
+.dish-rate i {
+    color: goldenrod;
+    font-size: 19px;
+    margin-right: 4px;
+}
+
+.dish-rate>p {
+    text-align: center;
+    color: #333232;
+}
+
+.dish-price {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+@media screen and (max-width: 1170px) {
+
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dish {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    
+}
