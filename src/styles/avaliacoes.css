@@ -1,0 +1,19 @@
+#testimonials {
+    min-height: calc(100vh - 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+#testimonial_chef {
+    width: 520px;
+    height: auto;
+}
+
+#testimonials .section-subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#testimonial_content {}
